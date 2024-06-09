@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #0c210b;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url('imagens/capacolagemsite.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000;
+}
+
+.intro-content {
+    text-align: center;
+}
+
+#name-intro {
+    font-size: 3em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#name-intro:hover {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar a {
+    color: rgb(8, 32, 15) !important;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #350000 !important;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.row img {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #7c006a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.311);
+}
